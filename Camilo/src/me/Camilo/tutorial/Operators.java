@@ -1,6 +1,8 @@
 package me.Camilo.tutorial;
 
 public class Operators {
+	public static String username;
+	
 	public int addition(int a, int b) {
 		return a + b;
 	}
@@ -23,5 +25,9 @@ public class Operators {
 	
 	public double pow(int a, int b) {
 		return Math.pow(a, b);
+	}
+	
+	public void setUsername(String username) {
+		this.username = username;
 	}
 }
